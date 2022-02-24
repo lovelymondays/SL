@@ -123,26 +123,15 @@ a:focus {
 }
 
 .entry-form {
-  color: white;
   background: #252020;
   border-radius: 100%;
   text-align: center;
   padding: 6em;
-  width: 530px;
-  height: 530px;
-}
-
-.entry-form button {
-  color: black;
-  background-color: #e70000;
+  width: 450px;
+  height: 450px;
 }
 
 .entry-form h2 {
-  color: #ffffff;
-  margin: 0;
-}
-
-.entry-form p {
   color: #ffffff;
   margin: 0;
 }
@@ -184,7 +173,9 @@ section {
 }
 
 #team,
-#testimonial {
+#documentation,
+#testimonial,
+#about {
   text-align: center;
 }
 
@@ -215,7 +206,7 @@ section {
 }
 
 /*---------------------------------------
-       PRE LOADER              
+  PRE LOADER              
   -----------------------------------------*/
 
 .preloader {
@@ -267,7 +258,7 @@ section {
 }
 
 /*---------------------------------------
-      MENU              
+  MENU              
   -----------------------------------------*/
 
 .custom-navbar {
@@ -347,7 +338,7 @@ section {
 }
 
 /*---------------------------------------
-      HOME  & SLIDER            
+  HOME  & SLIDER            
   -----------------------------------------*/
 
 #home {
@@ -398,106 +389,28 @@ section {
 }
 
 .home-slider .item-first {
-  background-image: url(../images/wp2176282.png);
+  background-image: url(../images/slider-image1.png);
   background-position: center;
 }
 
-/*---------------------------------------
-      FEATURE              
-  -----------------------------------------*/
-#feature .section-title {
-  text-align: center;
+.home-slider .item-second {
+  background-image: url(../images/slider-image2.png);
 }
 
-.feature-thumb {
-  border: 1px solid #f0f0f0;
-  padding: 5em 3em;
+.home-slider .item-third {
+  background-image: url(../images/slider-image3.png);
 }
 
-.feature-thumb span {
-  background: #3f51b5;
-  border-radius: 50px;
-  color: #ffffff;
-  font-size: 25px;
-  font-weight: bold;
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  margin-bottom: 5px;
+.home-slider .item-fourth {
+  background-image: url(../images/slider-image4.png);
 }
 
-.feature-thumb h3 {
-  margin: 10px 0;
+.home-slider .item-fifth {
+  background-image: url(../images/slider-image5.png);
 }
 
-/*---------------------------------------
-      ABOUT              
-  -----------------------------------------*/
-
-#about figure {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 15px;
-}
-
-#about figure span {
-  float: left;
-  margin-left: -15px;
-  padding: 15px 20px;
-  position: relative;
-  top: 20px;
-}
-
-#about figure span i {
-  background: #e70000;
-  border-radius: 50px;
-  color: #ffffff;
-  font-size: 25px;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-}
-
-.about-info img {
-  margin-left: -100px;
-  margin-top: 75px;
-}
-
-/*---------------------------------------
-      TEAM              
-  -----------------------------------------*/
-
-.team-thumb {
-  background: #ffffff;
-  overflow: hidden;
-  text-align: left;
-  margin-left: 150px;
-  width: 100%;
-}
-
-.team-info {
-  padding: 20px 30px;
-}
-
-.team-image img {
-  width: 100%;
-}
-
-.team-thumb .social-icon {
-  border-top: 1px solid #f0f0f0;
-  padding: 4px 20px 0 20px;
-}
-
-.team-thumb .social-icon li a {
-  background: #ffffff;
-  color: #252020;
-}
-
-.team-info h3 {
-  margin: 0;
+.home-slider .item-sixth {
+  background-image: url(../images/slider-image6.png);
 }
 
 /*---------------------------------------
@@ -602,36 +515,8 @@ section {
 }
 
 /*---------------------------------------
-     NEWS              
+  products
   -----------------------------------------*/
-
-.news-thumb {
-  clear: both;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-.news-thumb .news-image {
-  float: left;
-  width: 40%;
-  margin-right: 30px;
-}
-
-.news-info h3 {
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-.news-date span {
-  color: #909090;
-  font-weight: bold;
-}
-
-/*---------------------------------------
-      products             
-  -----------------------------------------*/
-
 #products .section-title {
   text-align: center;
 }
@@ -730,6 +615,200 @@ section {
 }
 
 /*---------------------------------------
+      FEATURE              
+  -----------------------------------------*/
+
+.feature-thumb {
+  border: 1px solid #f0f0f0;
+  padding: 5em 3em;
+}
+
+.feature-thumb span {
+  background: #3f51b5;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.feature-thumb h3 {
+  margin: 10px 0;
+}
+
+#feature .section-title {
+  text-align: center;
+}
+
+/*---------------------------------------
+  ABOUT              
+  -----------------------------------------*/
+
+#about figure {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+}
+
+#about figure span {
+  float: left;
+  margin-left: -15px;
+  padding: 15px 20px;
+  position: relative;
+  top: 20px;
+}
+
+#about figure span i {
+  background: #e70000;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+/*---------------------------------------
+  TEAM              
+  -----------------------------------------*/
+
+.team-thumb {
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+}
+
+.team-info {
+  padding: 20px 30px;
+}
+
+.team-image img {
+  width: 100%;
+}
+
+.team-thumb .social-icon {
+  border-top: 1px solid #f0f0f0;
+  padding: 4px 20px 0 20px;
+}
+
+.team-thumb .social-icon li a {
+  background: #ffffff;
+  color: #252020;
+}
+
+.team-info h3 {
+  margin: 0;
+}
+
+/*---------------------------------------
+      COURSES             
+  -----------------------------------------*/
+
+#courses .section-title {
+  text-align: center;
+}
+
+#courses .owl-theme .owl-nav {
+  margin-top: 30px;
+}
+
+#courses .owl-theme .owl-nav [class*="owl-"] {
+  border-radius: 2px;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0;
+}
+
+.courses-thumb {
+  background: #f9f9f9;
+  position: relative;
+}
+
+.courses-top {
+  position: relative;
+}
+
+.courses-image {
+  background: linear-gradient(to right, #202020, #101010);
+}
+
+.courses-date {
+  background: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.6));
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 20px 25px;
+}
+
+.courses-date span,
+.courses-author span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.courses-date span {
+  color: #ffffff;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.courses-detail {
+  padding: 25px 25px 15px 25px;
+}
+
+.courses-detail h3 {
+  margin: 0 0 2px 0;
+}
+
+.courses-info {
+  border-top: 1px solid #f0f0f0;
+  position: relative;
+  clear: both;
+  padding: 15px 25px;
+}
+
+.courses-author,
+.courses-author span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.courses-author img {
+  display: inline-block !important;
+  border-radius: 50px;
+  width: 50px !important;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.courses-price {
+  float: right;
+  margin-top: 10px;
+}
+
+.courses-price span {
+  background: #e70000;
+  border-radius: 2px;
+  color: #ffffff;
+  display: block;
+  padding: 5px 10px;
+}
+
+.courses-price.free span {
+  background: #3f51b5;
+}
+
+/*---------------------------------------
      NEWS              
   -----------------------------------------*/
 
@@ -769,7 +848,8 @@ section {
 
 #partnership .col-md-4,
 #products .col-md-4,
-#partnership .col-md-4,
+#courses .col-md-4,
+#documentation .col-md-4,
 #testimonial .col-md-4 {
   display: block;
   width: 100%;
@@ -817,7 +897,7 @@ section {
   -----------------------------------------*/
 
 #contact {
-  background: #e70000;
+  background: #3f51b5;
 }
 
 #contact h2 {
@@ -957,6 +1037,41 @@ footer .social-icon {
 }
 
 /*---------------------------------------
+    DOCUMENTATION             
+  -----------------------------------------*/
+
+#documentation .item > p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#documentation .item {
+  background: #ffffff;
+  margin: 20px 0;
+  padding: 4em 3em;
+  text-align: left;
+}
+
+.roww {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.columnnn {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.columnnn img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/*---------------------------------------
      SOCIAL ICON              
   -----------------------------------------*/
 
@@ -1035,6 +1150,11 @@ footer .social-icon {
     font-size: 2.5em;
   }
 
+  .columnnn {
+    flex: 50%;
+    max-width: 50%;
+  }
+
   h1,
   h2,
   h3 {
@@ -1099,6 +1219,11 @@ footer .social-icon {
 
   .contact-image {
     margin-top: 0;
+  }
+
+  .columnnn {
+    flex: 100%;
+    max-width: 100%;
   }
 }
 

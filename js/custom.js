@@ -26,10 +26,10 @@
     $('.home-slider').owlCarousel({
       animateOut: 'fadeOut',
       items:1,
-      loop:false,
+      loop:true,
       dots:false,
       autoplayHoverPause: false,
-      autoplay: false,
+      autoplay: true,
       smartSpeed: 1000,
     })
 
